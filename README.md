@@ -25,7 +25,8 @@ All the dependencies needed to run this project are listed in the requirements.t
 
 To install them, use the following command:
 <br>
-pip install -r requirements.txt
+
+- pip install -r requirements.txt
 
 ## Accuracy
 The model's performance is evaluated using multiple metrics to ensure reliable diabetes classification:
