@@ -19,3 +19,9 @@ The dataset is sourced from [Plotly's Diabetes Dataset](https://github.com/plotl
 - pandas
 - numpy
 - scikit-learn
+
+## Requirements
+All the dependencies needed to run this project are listed in the requirements.txt file.
+
+To install them, use the following command:
+pip install -r requirements.txt
