@@ -15,8 +15,7 @@ The system takes medical input values from the user, processes them with models 
 The dataset is sourced from [Plotly's Diabetes Dataset](https://github.com/plotly/datasets/blob/master/diabetes.csv).  
 **Note:** Diabetes type labels are simulated for demo purposes based on age and insulin levels.
 
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/diabetes-classifier.git
-   cd diabetes-classifier
+## Dependencies
+- pandas
+- numpy
+- scikit-learn
