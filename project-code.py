@@ -63,7 +63,8 @@ def get_user_input():
 
 #Full classification logic
 def classify_patient(patient_input):
-    patient_scaled = scaler.transform([patient_input])
+    patient_df = pd.DataFrame([patient_input], columns=X.columns)
+    patient_scaled = scaler.transform(patient_df)
     #Step 1:Diabetes check
     is_diabetic = knn_diabetes.predict(patient_scaled)[0]
     if is_diabetic == 0:
