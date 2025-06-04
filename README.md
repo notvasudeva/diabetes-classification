@@ -26,3 +26,12 @@ All the dependencies needed to run this project are listed in the requirements.t
 To install them, use the following command:
 <br>
 pip install -r requirements.txt
+
+## Accuracy
+The model's performance is evaluated using multiple metrics to ensure reliable diabetes classification:
+
+- Accuracy Score: Represents the percentage of correct predictions made by the KNN classifier on the test data.
+
+- Confusion Matrix: Provides a detailed breakdown of true positives, true negatives, false positives, and false negatives, helping to identify where the model performs well or struggles.
+
+- ROC Curve: Illustrates the trade-off between the true positive rate and false positive rate at various classification thresholds, helping to assess the model's ability to distinguish between diabetic and non-diabetic cases.
